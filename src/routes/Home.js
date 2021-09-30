@@ -27,7 +27,7 @@ class Home extends React.Component {
     return (
       <section className="container">
         {isLoading ? (
-          <div>
+          <div className="loader">
             <span className="loader__text">Loading...</span>
           </div>
         ) : (
